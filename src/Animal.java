@@ -1,16 +1,14 @@
 public abstract class Animal {
 
-// Убрать кавычки и цифры
-    private String name = "";
-    private int age = 0;
+    private String name;
+    private int age;
 
     public Animal(String name, int age){
         this.name = name;
         this.age = age;
     }
 
-//    методы называются с маленькой буквы
-    abstract String Sound();
+    abstract String sound();
 
     @Override
     public String toString() {

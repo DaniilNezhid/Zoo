@@ -8,7 +8,7 @@ public class Monkey extends Animal implements Climber{
     }
 
     @Override
-    String Sound() {
+    String sound() {
         return "U u u...";
     }
 }

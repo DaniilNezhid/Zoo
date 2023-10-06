@@ -4,7 +4,7 @@ public class Snake extends Animal{
     }
 
     @Override
-    String Sound() {
+    String sound() {
         return "Sss...";
     }
 }

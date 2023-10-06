@@ -11,7 +11,7 @@ public class Zoo {
     }
     void makeSound(){
         for (Animal animal : listAnimals) {
-            System.out.println(animal.toString() + " " + animal.Sound());
+            System.out.println(animal.toString() + " " + animal.sound());
         }
     }
     public ArrayList<Animal> getAnimalsByAge(int age){
