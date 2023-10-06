@@ -3,6 +3,7 @@ public class Lion extends Animal{
         super(name, age);
     }
 
+//    методы с маленькой буквы
     @Override
     String Sound() {
         return "Rrr...";
